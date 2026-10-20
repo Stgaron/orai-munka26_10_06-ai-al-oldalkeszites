@@ -127,6 +127,17 @@ aside section {
         flex-basis: 100%;
     }
 
+    /* A kártyákon belüli divek egymás alá kerülnek */
+    .card {
+        flex-direction: column;
+    }
+
+    /* A kép és a szöveg teljes szélességet kap */
+    .image-placeholder,
+    .card-content {
+        flex-basis: 100%;
+    }
+
     /* A navigációs menüpontok egymás alá kerülnek */
     .menu {
         flex-direction: column;
